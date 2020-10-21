@@ -2,7 +2,7 @@
 
 export PYTHONPATH=tests:src 
 . venv/bin/activate
-pip install -r requirements/build.txt
+pip install -r requirements/dev.txt
 
 if [[ "$1" == "watch" ]]
 then
