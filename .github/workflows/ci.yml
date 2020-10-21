@@ -12,3 +12,8 @@ jobs:
         python-version: 3.8
     - name: Run Tests
       run: ./build.sh
+    - name: Publish distribution to Test PyPI
+      uses: pypa/gh-action-pypi-publish@master
+      with:
+        password: ${{ secrets.test_pypi_token }}
+        repository_url: https://test.pypi.org/legacy/      

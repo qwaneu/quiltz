@@ -13,7 +13,7 @@ setup(
   description="A domain utility module for python",
   long_description=long_description,
   long_description_content_type="text/markdown",
-  url="git@bitbucket.org:qwaneu/python-libs.git",
+  url="https://github.com/qwaneu/quiltz",
   packages=find_packages(where='src'),
   package_dir={'':'src'},
   classifiers=[
