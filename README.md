@@ -1,6 +1,6 @@
-# A domain utility module for python - part of qwan python-libs 
+# A domain utility module for python
 
-Quilts is a package for QWAN python utils. Currently it contains 
+Quilts is a package for QWAN python utils
 
 * quiltz.id:  
   a domain concept for entity ID including an ID Generator
