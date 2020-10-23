@@ -13,6 +13,7 @@ if not re.match(r'\d+\.\d+\.\d+',new_version):
 answer = input('are you sure to release from {} to {}: '.format(old_version, new_version))
 if answer != 'yes':
     print('no confirmation')
+    exit(0) 
 
 with open('src/quiltz/version.py', "w+") as file:
     file.write('version="{}"'.format(new_version))
