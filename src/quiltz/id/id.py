@@ -1,3 +1,5 @@
+import warnings
+warnings.warn("deprecated - use id from quiltz-domain instead", DeprecationWarning)
 import uuid
 from uuid import UUID as UUID_IMPL
 from dataclasses import dataclass, field

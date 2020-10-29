@@ -1,3 +1,5 @@
+import warnings
+warnings.warn("deprecated - use id.testbuilders from quiltz-domain instead", DeprecationWarning)
 from quiltz.id import ID 
 import uuid
 

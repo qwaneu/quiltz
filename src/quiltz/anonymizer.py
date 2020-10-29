@@ -1,3 +1,6 @@
+import warnings
+warnings.warn("deprecated - use anonymizer from quiltz-domain instead", DeprecationWarning)
+
 def anonymize(email_address):
     parts = email_address.split('@', maxsplit=1)
     if len(parts) <= 1:

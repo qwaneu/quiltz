@@ -1,3 +1,6 @@
+import warnings
+warnings.warn("deprecated - use results from quiltz-domain instead", DeprecationWarning)
+
 from dataclasses import dataclass
 
 @dataclass(init=False)

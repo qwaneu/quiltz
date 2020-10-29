@@ -1,3 +1,5 @@
+import warnings
+warnings.warn("deprecated - use validator from quiltz-domain instead", DeprecationWarning)
 from .results import Success, Failure
 
 class Parameters(dict):
